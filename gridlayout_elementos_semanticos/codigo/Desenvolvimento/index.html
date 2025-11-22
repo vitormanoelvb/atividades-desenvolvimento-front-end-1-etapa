@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jornal do Público TI — GridLayout e Elementos Semânticos</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+
+    <header class="o-header" id="topo">
+      <h1>Jornal do Público TI</h1>
+      <p>As principais notícias da área de Tecnologia da Informação</p>
+
+      <nav aria-label="navegação principal">
+        <ul class="menu">
+          <li><a href="#topo">Início</a></li>
+          <li><a href="#novidades">Notícias</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside class="o-aside" aria-labelledby="titulo-categorias">
+      <h2 id="titulo-categorias">Categorias</h2>
+      <ul>
+        <li><a href="#desenvolvimento">Desenvolvimento</a></li>
+        <li><a href="#ia">Inteligência Artificial</a></li>
+        <li><a href="#hardware">Hardware</a></li>
+        <li><a href="#seguranca">Segurança</a></li>
+      </ul>
+    </aside>
+
+    <main class="o-main">
+
+  <section id="desenvolvimento" aria-labelledby="h-desenvolvimento">
+    <h2 id="h-desenvolvimento">Desenvolvimento</h2>
+
+    <article aria-labelledby="h-frontend">
+      <img src="https://img.icons8.com/color/100/programming.png" alt="Front-end">
+      <h3 id="h-frontend">Front-end</h3>
+      <p>Interfaces e experiência do usuário com HTML, CSS, JavaScript, acessibilidade e performance.</p>
+
+    </article>
+
+    <article aria-labelledby="h-backend">
+      <img src="https://img.icons8.com/color/100/server.png" alt="Back-end">
+      <h3 id="h-backend">Back-end</h3>
+      <p>APIs, regras de negócio e bancos de dados em Node.js, Java, C#, Python, PHP e outros.</p>
+
+    </article>
+
+  </section>
+
+  <section id="novidades" aria-labelledby="h-novidades">
+    <h2 id="h-novidades">Novidades da Tecnologia</h2>
+
+    <article id="ia" aria-labelledby="h-ia">
+      <img src="https://img.icons8.com/color/100/artificial-intelligence.png" alt="Inteligência Artificial">
+      <h3 id="h-ia">Inteligência Artificial na Prática</h3>
+      <p>Copilotos, automações e modelos generativos aceleram tarefas e criam novas experiências digitais.</p>
+
+    </article>
+
+    <article id="hardware" aria-labelledby="h-hardware">
+      <img src="https://img.icons8.com/color/100/computer.png" alt="Hardware">
+      <h3 id="h-hardware">Hardware: Monitores e Peças</h3>
+      <p>Monitores (tamanho, taxa de atualização, painel) e componentes como CPU, GPU, RAM e SSD.</p>
+
+    </article>
+
+    <article id="seguranca" aria-labelledby="h-seguranca">
+      <img src="https://img.icons8.com/color/100/security-checked.png" alt="Segurança da Informação">
+      <h3 id="h-seguranca">Segurança da Informação</h3>
+      <p>Autenticação forte, criptografia e gestão de vulnerabilidades como prioridade organizacional.</p>
+    
+    </article>
+
+  </section>
+
+  <section id="contato" aria-labelledby="h-contato">
+    <h2 id="h-contato">Contato</h2>
+    <p>Envie sugestões de pauta para: <strong>redacao@jornaldopublicoti.com</strong></p>
+  </section>
+
+</main>
+
+    <footer class="o-footer">
+      <p>&copy; 2025 — Jornal do Público TI • Todos os direitos reservados</p>
+    </footer>
+
+  </div>
+</body>
+</html>

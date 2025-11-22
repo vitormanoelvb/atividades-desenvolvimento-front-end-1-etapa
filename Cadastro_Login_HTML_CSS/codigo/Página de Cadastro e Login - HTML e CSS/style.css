@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.form-control {
+    min-height: 38px;
+    padding: 7px 12px;
+}
+
+.btn {
+    min-width: 150px;
+    background-color: #3c8dbc;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.form-control:focus {
+    border-color: #3c8dbc;
+}
+
+.main-content {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+    background-color: #3c8dbc;
+    color: #ffffff;
+}
+
+.social-icon {
+    margin-right: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
